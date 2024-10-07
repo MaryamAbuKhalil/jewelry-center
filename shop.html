@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jewellery || by Nas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- ==============header-start================= -->
+  <div class="sale_box" style="display: none;">
+    <div class="container">
+      <div class="offer-details">
+        <p> Get <strong> 30%</strong> off for <strong> Summer</strong> Collections</p>
+
+        <div class="sale-time-box">
+          <div class="box">
+            <p id="days">00</p>
+            <p>Days</p>
+          </div>
+          <div class="box">
+            <p id="hours">00</p>
+            <p>Hours</p>
+          </div>
+          <div class="box">
+            <p id="minutes">00</p>
+            <p>Min</p>
+          </div>
+          <div class="box">
+            <p id="seconds">00</p>
+            <p>Sec</p>
+          </div>
+          <div>
+            <a href="#"> <button>Shop Now</button></a>
+          </div>
+
+          <div>
+            <p class="hide_message"><i class="fa-solid fa-x"></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar top-bar">
+    <div class="container-fluid ">
+      <div class="d-flex justify-content-between w-100 px-2 align-items-center">
+        <div class="top-message">
+          <p>Welcome to <strong>Blank</strong> Jewellery online store</p>
+        </div>
+        <div style="display: flex;">
+          <div class="dropdown_box">
+            <p class="dropshow  "><span class="curruncy_view">USD</span> <i class="fa-solid fa-chevron-down"></i>
+            </p>
+            <div class="dropdown_details ">
+              <ul class="dropdown_menu ">
+                <li data-currency="PKR" class="dropdown_list curruncylist">PKR - Pak Rupees</li>
+                <li data-currency="USD" class="dropdown_list curruncylist">USD - Us Doller</li>
+                <li data-currency="EUR" class="dropdown_list curruncylist">EUR - Euro</li>
+                <li data-currency="GBP" class="dropdown_list curruncylist">GBP - British Pound</li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="mx-2">|</div>
+          <div class="dropdown_box">
+            <p class="dropshow  "><span class="lan_view">English</span> <i class="fa-solid fa-chevron-down"></i>
+            </p>
+            <div class="dropdown_details" style="margin-right: 0px; ">
+              <ul class="dropdown_menu ">
+                <li data-lan="English" class="dropdown_list  lanlist ">English</li>
+                <li data-lan="Spanish" class="dropdown_list lanlist ">Spanish</li>
+                <li data-lan="Arabic" class="dropdown_list  lanlist">Arabic</li>
+                <li data-lan="Urdu" class="dropdown_list  lanlist">Urdu</li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </nav>
+
+
+  <nav class="navmain">
+
+    <div class="nav-log">
+      <img src="./images/logo_corano_125x.png" alt="Logo">
+    </div>
+    <div class="navbar-link">
+      <ul class="nav_list">
+        <li><a href="./index.html" class="link nav-lik">Home</a></li>
+        <li><a href="./shop.html" class="link nav-lik">Shop</a></li>
+        <!-- ================product dropdown_box============ -->
+        <div class="dropdown_box">
+          <p class="dropshow  nav-lik ">Product <i class="fa-solid fa-chevron-down"></i> <span
+              class="new-btn">New</span>
+          </p>
+          <div class="nabv_dropdown " style="padding-top: 30px;   right: 0rem;">
+            <ul>
+              <li class="dropdown_nav lanlist"><a href=""><i class="fa-solid fa-minus"></i> Affiliate product</a>
+              </li>
+              <li class="dropdown_nav lanlist"><a href=""><i class="fa-solid fa-minus"></i> Coming Soon Product</a>
+              </li>
+              <li class="dropdown_nav lanlist"><a href=""><i class="fa-solid fa-minus"></i> Contact Us Product<span
+                    class="new-btn" style="left: 150px; right: inherit;">New</span></a>
+              </li>
+              <li class="dropdown_nav lanlist" style="border: none;"><a href=""><i class="fa-solid fa-minus"></i>
+                  Countdown Product</a>
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+        <!-- ================blog dropdown_box============ -->
+        <div class="dropdown_box">
+          <p class="dropshow  nav-lik ">Blog <i class="fa-solid fa-chevron-down"></i>
+          </p>
+          <div class="nabv_dropdown " style="padding-top: 30px;   right: 0rem;">
+            <ul>
+              <li class="dropdown_nav " style="border: none;"><a href=""><i class="fa-solid fa-minus"></i> Single
+                  Page</a>
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+        <!-- ================Pages dropdown_box============ -->
+        <div class="dropdown_box">
+          <p class="dropshow  nav-lik">Pages <i class="fa-solid fa-chevron-down"></i>
+          </p>
+          <div class="nabv_dropdown " style="padding-top: 30px;   right: 0rem;">
+            <ul>
+              <li class="dropdown_nav "><a href=""><i class="fa-solid fa-minus"></i> About</a></li>
+              <li class="dropdown_nav "><a href=""><i class="fa-solid fa-minus"></i> Collections</a></li>
+              <li class="dropdown_nav "><a href=""><i class="fa-solid fa-minus"></i> Gift Card</a></li>
+              <li class="dropdown_nav " style="border: none;"><a href=""><i class="fa-solid fa-minus"></i> FAQ </a>
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <div class="search-bar">
+      <div>
+        <form action="#">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search Our Store">
+        </form>
+      </div>
+    </div>
+
+    <div class="nav-icons">
+      <div class="dropdown_box ">
+        <p class="dropshow  "> <span class="nav-user user_icn"><i class='bx bx-user'></i></span></p>
+        <div class="dropdown_details " style="right: 0; padding-top: 10px;">
+          <ul class="dropdown_menu ">
+            <li class="dropdown_list">My Account</li>
+            <li class="dropdown_list">Wishlist</li>
+            <li class="dropdown_list">Login</li>
+
+
+          </ul>
+        </div>
+      </div>
+      <a class="nav-user "><i class='fa-regular fa-heart'></i></span>
+        <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasWithBothOptions"><span class="nav-user "><i class='bx bx-shopping-bag'></i></span>
+        </a>
+      </a>
+
+    </div>
+
+  </nav>
+  <div class="offcanvas offcanvas-end cart-box" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+    aria-labelledby="offcanvasWithBothOptionsLabel">
+    <button type="button" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-x"></i></button>
+
+    <div class="offcanvas-body">
+      <h3>Your cart is currently empty.</h3>
+    </div>
+  </div>
+
+
+  <div class="navigater">
+    <div class="container-fluid">
+      <p><a href="index.html"><i class="fa-solid fa-house"></i></a> / <a href="">Products</a></p>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col-lg-3 ">
+        <!-- ----------------------------------- -->
+        <div class="filterbox">
+          <div class="collapse-box">
+            <h5 class="close_col" data-bs-toggle="collapse" href="#collapse1" role="button" aria-controls="collapse1"
+              aria-expanded="true">Availability
+              <span><i class="fa-solid fa-chevron-down"></i></span>
+            </h5>
+            <div class="collapse show " id="collapse1">
+              <div class="coll-box-content">
+                <div>
+                  <span>0 Selected</span>
+                </div>
+                <div class="checkboxes mt-3">
+                  <input type="checkbox" id="stock">
+                  <label for="stock">In Stock (39)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="ostock">
+                  <label for="ostock">Out Of Stock (28)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------------- -->
+        <!-- ----------------------------------- -->
+        <div class="filterbox">
+          <div class="collapse-box">
+            <h5 class="close_col" data-bs-toggle="collapse" href="#collapse2" role="button" aria-controls="collapse2"
+              aria-expanded="true">Price
+              <span><i class="fa-solid fa-chevron-down"></i></span>
+            </h5>
+            <div class="collapse show " id="collapse2">
+              <div class="coll-box-content">
+                <div>
+                  <span>Selected</span>
+                </div>
+                <div class="input-pricing mt-3">
+
+                  <label for="stock">$</label>
+                  <input type="number" id="stock">
+                  <label for="stock">From</label>
+
+                  <label for="stock" style="margin-left: 10px;">$</label>
+                  <input type="number" id="stock">
+                  <label for="stock">To</label>
+
+                </div>
+                <div>
+                  <input type="submit" value="Filter">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------------- -->
+
+        <!-- ----------------------------------- -->
+        <div class="filterbox">
+          <div class="collapse-box">
+            <h5 data-bs-toggle="collapse" href="#collapse3" role="button" aria-controls="collapse3"
+              aria-expanded="true">Product type
+              <span><i class="fa-solid fa-chevron-down"></i></span>
+            </h5>
+            <div class="collapse show " id="collapse3">
+              <div class="coll-box-content">
+                <div>
+                  <span>0 Selected</span>
+                </div>
+                <div class="checkboxes mt-3">
+                  <input type="checkbox" id="t1">
+                  <label for="t1">Type 1 (3)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="t2">
+                  <label for="t2">Type 2 (6)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="t3">
+                  <label for="t3">Type 3 (1)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="t4">
+                  <label for="t4">Type 4 (8)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="t5">
+                  <label for="t5">Type 5 (9)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="t6">
+                  <label for="t6">Type 6 (3)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="t7">
+                  <label for="t7">Type 7 (1)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="t8">
+                  <label for="t8">Type 8 (6)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------------- -->
+        <!-- ----------------------------------- -->
+        <div class="filterbox">
+          <div class="collapse-box">
+            <h5 data-bs-toggle="collapse" href="#collapse4" role="button" aria-controls="collapse4"
+              aria-expanded="true">Brand
+              <span><i class="fa-solid fa-chevron-down"></i></span>
+            </h5>
+            <div class="collapse show " id="collapse4">
+              <div class="coll-box-content">
+                <div>
+                  <span>0 Selected</span>
+                </div>
+                <div class="checkboxes mt-3">
+                  <input type="checkbox" id="v1">
+                  <label for="v1">Vendor 1 (3) </label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="v2">
+                  <label for="v2">Vendor 2 (6)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="v3">
+                  <label for="v3">Vendor 3 (1)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="v4">
+                  <label for="v4">Vendor 4 (8)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="v5">
+                  <label for="v5">Vendor 5 (9)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="v6">
+                  <label for="v6">Vendor 6 (3)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="v7">
+                  <label for="v7">Vendor 7 (1)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="v8">
+                  <label for="v8">Vendor 8 (6)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="v9">
+                  <label for="v9">Vendor 9 (0)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------------- -->
+        <!-- ----------------------------------- -->
+        <div class="filterbox">
+          <div class="collapse-box">
+            <h5 data-bs-toggle="collapse" href="#collapse5" role="button" aria-controls="collapse5"
+              aria-expanded="true">Color
+              <span><i class="fa-solid fa-chevron-down"></i></span>
+            </h5>
+            <div class="collapse show " id="collapse5">
+              <div class="coll-box-content">
+                <div>
+                  <span>0 Selected</span>
+                </div>
+                <div class="checkboxes mt-3">
+                  <input type="checkbox" id="bck">
+                  <label for="bck">Black (7)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="bl">
+                  <label for="bl">Blue (15)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="gd">
+                  <label for="gd">Gold (12)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="gray">
+                  <label for="gray">Gray (12)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="gr">
+                  <label for="gr">Green (15)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="ma">
+                  <label for="ma">Magenta (6)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="nav">
+                  <label for="nav">Navy (7)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="o">
+                  <label for="o">Orange (3)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="red">
+                  <label for="red">Red (16)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="vi">
+                  <label for="vi">Violet (7)</label>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------------- -->
+        <!-- ----------------------------------- -->
+        <div class="filterbox">
+          <div class="collapse-box">
+            <h5 data-bs-toggle="collapse" href="#collapse6" role="button" aria-controls="collapse6"
+              aria-expanded="true">Size
+              <span><i class="fa-solid fa-chevron-down"></i></span>
+            </h5>
+            <div class="collapse show " id="collapse6">
+              <div class="coll-box-content">
+                <div>
+                  <span>0 Selected</span>
+                </div>
+                <div class="checkboxes mt-3">
+                  <input type="checkbox" id="m">
+                  <label for="m">M (17)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="l">
+                  <label for="l">L (17)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="xl">
+                  <label for="xl">Xl (13)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="xxl">
+                  <label for="xxl">Xxl (7)</label>
+                </div>
+                <div class="checkboxes">
+                  <input type="checkbox" id="x">
+                  <label for="x">X (1)</label>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------------- -->
+        <!-- ----------------------------------- -->
+        <div class="filterbox">
+          <div class="collapse-box">
+            <h5 data-bs-toggle="collapse" href="#collapse7" role="button" aria-controls="collapse7"
+              aria-expanded="true">Product rating count
+              <span><i class="fa-solid fa-chevron-down"></i></span>
+            </h5>
+            <div class="collapse show " id="collapse7">
+              <div class="coll-box-content">
+                <div>
+                  <span>0 Selected</span>
+                </div>
+                <div class="checkboxes mt-3">
+                  <input type="checkbox" id="rat">
+                  <label for="rat">Ratings (4)</label>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------------- -->
+
+      </div>
+      <div class="col-lg-9">
+        <div class="product-list">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-7 col-md-6">
+                <div class="left-bar">
+                  <div class="icons">
+                    <div>
+                      <a href="#" class="active"><i class='bx bxs-grid'></i></a>
+                      <a href="#"><i class='bx bx-list-ul'></i></a>
+                    </div>
+                    <p>Showing 1 - 21 of 44 result</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-6">
+
+                <div class="right-bar">
+                  <label for="result">Sort by :</label>
+                  <select name="result" id="result">
+                    <option value="#">Featured</option>
+                    <option value="#" selected>Alphabetically, A-Z</option>
+                    <option value="#" selected>Alphabetically, Z-A</option>
+                    <option value="#" selected>Alphabetically, Z-A</option>
+                    <option value="#" selected>Price low to high</option>
+                    <option value="#" selected>Price high to low</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="container-fluid p-0 mt-3">
+          <div class="row">
+            <!-- ======= -->
+            <div class="col-md-4 col-lg-4 ">
+              <div class="main-product-box mt-3">
+                <div class="product-box">
+                  <div class="img-sec">
+                    <a href="#">
+                      <p style="background-color:black ;">-15%</p>
+                      <img class="img-1" src="./images/product/gold1-1.webp" alt="img">
+                      <img class="img-2" src="./images/product/gold1-2.webp" alt="img">
+                    </a>
+                    <div class="hide-btn">
+                      <button>Select option</button>
+                    </div>
+                  </div>
+                  <div class="product-con">
+                    <p style="margin: 0;">Type 2</p>
+                    <a href="#">Demo product title</a>
+                    <div class="price-box">
+                      <p><span><del class="old-price">&euro;133.30</del></span> <span class="new-price ms-1">
+                          &euro;133.30</span></p>
+                    </div>
+                    <div class="color-select">
+                      <ul>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: red;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: green;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: yellow;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: transparent;">+1</label>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======================= -->
+            <!-- ======= -->
+            <div class="col-md-4 col-lg-4 ">
+              <div class="main-product-box mt-3">
+                <div class="product-box">
+                  <div class="img-sec">
+                    <a href="#">
+                      <p style="background-color:#c29958 ;">Soldout</p>
+                      <img class="img-1" src="./images/product/gold1-2.webp" alt="img">
+                      <img class="img-2" src="./images/product/gold1-1.webp" alt="img">
+                    </a>
+                    <div class="hide-btn">
+                      <button>Select option</button>
+                    </div>
+                  </div>
+                  <div class="product-con">
+                    <p style="margin: 0;">Type 2</p>
+                    <a href="#">Demo product title</a>
+                    <div class="price-box">
+                      <p><span><del class="old-price">&euro;133.30</del></span> <span class="new-price ms-1">
+                          &euro;133.30</span></p>
+                    </div>
+                    <div class="color-select">
+                      <ul>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: red;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: green;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: yellow;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: transparent;">+1</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======================= -->
+            <!-- ======= -->
+            <div class="col-md-4 col-lg-4 ">
+              <div class="main-product-box mt-3">
+                <div class="product-box">
+                  <div class="img-sec">
+                    <a href="#">
+                      <img class="img-1" src="./images/product/gold2-1.webp" alt="img">
+                      <img class="img-2" src="./images/product/gold1-2.webp" alt="img">
+                    </a>
+                    <div class="hide-btn">
+                      <button>Select option</button>
+                    </div>
+                  </div>
+                  <div class="product-con">
+                    <p style="margin: 0;">Type 2</p>
+                    <a href="#">Demo product title</a>
+                    <div class="price-box">
+                      <p><span><del class="old-price">&euro;133.30</del></span> <span class="new-price ms-1">
+                          &euro;133.30</span></p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======================= -->
+            <!-- ======= -->
+            <div class="col-md-4 col-lg-4 ">
+              <div class="main-product-box mt-3">
+                <div class="product-box">
+                  <div class="img-sec">
+                    <a href="#">
+                      <img class="img-1" src="./images/product/gold2-1.webp" alt="img">
+                      <img class="img-2" src="./images/product/gold1-2.webp" alt="img">
+                    </a>
+                    <div class="hide-btn">
+                      <button>Select option</button>
+                    </div>
+                  </div>
+                  <div class="product-con">
+                    <p style="margin: 0;">Type 2</p>
+                    <a href="#">Demo product title</a>
+                    <div class="price-box">
+                      <p><span><del class="old-price">&euro;133.30</del></span> <span class="new-price ms-1">
+                          &euro;133.30</span></p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======================= -->
+            <!-- ======= -->
+            <div class="col-md-4 col-lg-4 ">
+              <div class="main-product-box mt-3">
+                <div class="product-box">
+                  <div class="img-sec">
+                    <a href="#">
+                      <p style="background-color:#c29958 ;">Soldout</p>
+                      <img class="img-1" src="./images/product/gold1-2.webp" alt="img">
+                      <img class="img-2" src="./images/product/gold1-1.webp" alt="img">
+                    </a>
+                    <div class="hide-btn">
+                      <button>Select option</button>
+                    </div>
+                  </div>
+                  <div class="product-con">
+                    <p style="margin: 0;">Type 2</p>
+                    <a href="#">Demo product title</a>
+                    <div class="price-box">
+                      <p><span><del class="old-price">&euro;133.30</del></span> <span class="new-price ms-1">
+                          &euro;133.30</span></p>
+                    </div>
+                    <div class="color-select">
+                      <ul>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: red;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: green;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: yellow;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: transparent;">+1</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======================= -->
+            <!-- ======= -->
+            <div class="col-md-4 col-lg-4 ">
+              <div class="main-product-box mt-3">
+                <div class="product-box">
+                  <div class="img-sec">
+                    <a href="#">
+                      <p style="background-color:black ;">-15%</p>
+                      <img class="img-1" src="./images/product/gold1-1.webp" alt="img">
+                      <img class="img-2" src="./images/product/gold1-2.webp" alt="img">
+                    </a>
+                    <div class="hide-btn">
+                      <button>Select option</button>
+                    </div>
+                  </div>
+                  <div class="product-con">
+                    <p style="margin: 0;">Type 2</p>
+                    <a href="#">Demo product title</a>
+                    <div class="price-box">
+                      <p><span><del class="old-price">&euro;133.30</del></span> <span class="new-price ms-1">
+                          &euro;133.30</span></p>
+                    </div>
+                    <div class="color-select">
+                      <ul>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: red;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: green;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: yellow;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: transparent;">+1</label>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======================= -->
+            <!-- ======= -->
+            <div class="col-md-4 col-lg-4 ">
+              <div class="main-product-box mt-3">
+                <div class="product-box">
+                  <div class="img-sec">
+                    <a href="#">
+                      <p style="background-color:black ;">-15%</p>
+                      <img class="img-1" src="./images/product/gold1-1.webp" alt="img">
+                      <img class="img-2" src="./images/product/gold1-2.webp" alt="img">
+                    </a>
+                    <div class="hide-btn">
+                      <button>Select option</button>
+                    </div>
+                  </div>
+                  <div class="product-con">
+                    <p style="margin: 0;">Type 2</p>
+                    <a href="#">Demo product title</a>
+                    <div class="price-box">
+                      <p><span><del class="old-price">&euro;133.30</del></span> <span class="new-price ms-1">
+                          &euro;133.30</span></p>
+                    </div>
+                    <div class="color-select">
+                      <ul>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: red;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: green;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: yellow;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: transparent;">+1</label>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======================= -->
+            <!-- ======= -->
+            <div class="col-md-4 col-lg-4 ">
+              <div class="main-product-box mt-3">
+                <div class="product-box">
+                  <div class="img-sec">
+                    <a href="#">
+                      <p style="background-color:#c29958 ;">Soldout</p>
+                      <img class="img-1" src="./images/product/gold1-2.webp" alt="img">
+                      <img class="img-2" src="./images/product/gold1-1.webp" alt="img">
+                    </a>
+                    <div class="hide-btn">
+                      <button>Select option</button>
+                    </div>
+                  </div>
+                  <div class="product-con">
+                    <p style="margin: 0;">Type 2</p>
+                    <a href="#">Demo product title</a>
+                    <div class="price-box">
+                      <p><span><del class="old-price">&euro;133.30</del></span> <span class="new-price ms-1">
+                          &euro;133.30</span></p>
+                    </div>
+                    <div class="color-select">
+                      <ul>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: red;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: green;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: yellow;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: transparent;">+1</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======================= -->
+            <!-- ======= -->
+            <div class="col-md-4 col-lg-4 ">
+              <div class="main-product-box mt-3">
+                <div class="product-box">
+                  <div class="img-sec">
+                    <a href="#">
+                      <img class="img-1" src="./images/product/gold2-1.webp" alt="img">
+                      <img class="img-2" src="./images/product/gold1-2.webp" alt="img">
+                    </a>
+                    <div class="hide-btn">
+                      <button>Select option</button>
+                    </div>
+                  </div>
+                  <div class="product-con">
+                    <p style="margin: 0;">Type 2</p>
+                    <a href="#">Demo product title</a>
+                    <div class="price-box">
+                      <p><span><del class="old-price">&euro;133.30</del></span> <span class="new-price ms-1">
+                          &euro;133.30</span></p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======================= -->
+            <!-- ======= -->
+            <div class="col-md-4 col-lg-4 ">
+              <div class="main-product-box mt-3">
+                <div class="product-box">
+                  <div class="img-sec">
+                    <a href="#">
+                      <img class="img-1" src="./images/product/gold2-1.webp" alt="img">
+                      <img class="img-2" src="./images/product/gold1-2.webp" alt="img">
+                    </a>
+                    <div class="hide-btn">
+                      <button>Select option</button>
+                    </div>
+                  </div>
+                  <div class="product-con">
+                    <p style="margin: 0;">Type 2</p>
+                    <a href="#">Demo product title</a>
+                    <div class="price-box">
+                      <p><span><del class="old-price">&euro;133.30</del></span> <span class="new-price ms-1">
+                          &euro;133.30</span></p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======================= -->
+            <!-- ======= -->
+            <div class="col-md-4 col-lg-4 ">
+              <div class="main-product-box mt-3">
+                <div class="product-box">
+                  <div class="img-sec">
+                    <a href="#">
+                      <p style="background-color:#c29958 ;">Soldout</p>
+                      <img class="img-1" src="./images/product/gold1-2.webp" alt="img">
+                      <img class="img-2" src="./images/product/gold1-1.webp" alt="img">
+                    </a>
+                    <div class="hide-btn">
+                      <button>Select option</button>
+                    </div>
+                  </div>
+                  <div class="product-con">
+                    <p style="margin: 0;">Type 2</p>
+                    <a href="#">Demo product title</a>
+                    <div class="price-box">
+                      <p><span><del class="old-price">&euro;133.30</del></span> <span class="new-price ms-1">
+                          &euro;133.30</span></p>
+                    </div>
+                    <div class="color-select">
+                      <ul>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: red;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: green;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: yellow;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: transparent;">+1</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======================= -->
+            <!-- ======= -->
+            <div class="col-md-4 col-lg-4 ">
+              <div class="main-product-box mt-3">
+                <div class="product-box">
+                  <div class="img-sec">
+                    <a href="#">
+                      <p style="background-color:black ;">-15%</p>
+                      <img class="img-1" src="./images/product/gold1-1.webp" alt="img">
+                      <img class="img-2" src="./images/product/gold1-2.webp" alt="img">
+                    </a>
+                    <div class="hide-btn">
+                      <button>Select option</button>
+                    </div>
+                  </div>
+                  <div class="product-con">
+                    <p style="margin: 0;">Type 2</p>
+                    <a href="#">Demo product title</a>
+                    <div class="price-box">
+                      <p><span><del class="old-price">&euro;133.30</del></span> <span class="new-price ms-1">
+                          &euro;133.30</span></p>
+                    </div>
+                    <div class="color-select">
+                      <ul>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: red;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: green;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: yellow;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: transparent;">+1</label>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======================= -->
+            <!-- ======= -->
+            <div class="col-md-4 col-lg-4 ">
+              <div class="main-product-box mt-3">
+                <div class="product-box">
+                  <div class="img-sec">
+                    <a href="#">
+                      <p style="background-color:black ;">-15%</p>
+                      <img class="img-1" src="./images/product/gold1-1.webp" alt="img">
+                      <img class="img-2" src="./images/product/gold1-2.webp" alt="img">
+                    </a>
+                    <div class="hide-btn">
+                      <button>Select option</button>
+                    </div>
+                  </div>
+                  <div class="product-con">
+                    <p style="margin: 0;">Type 2</p>
+                    <a href="#">Demo product title</a>
+                    <div class="price-box">
+                      <p><span><del class="old-price">&euro;133.30</del></span> <span class="new-price ms-1">
+                          &euro;133.30</span></p>
+                    </div>
+                    <div class="color-select">
+                      <ul>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: red;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: green;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: yellow;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: transparent;">+1</label>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======================= -->
+            <!-- ======= -->
+            <div class="col-md-4 col-lg-4 ">
+              <div class="main-product-box mt-3">
+                <div class="product-box">
+                  <div class="img-sec">
+                    <a href="#">
+                      <p style="background-color:#c29958 ;">Soldout</p>
+                      <img class="img-1" src="./images/product/gold1-2.webp" alt="img">
+                      <img class="img-2" src="./images/product/gold1-1.webp" alt="img">
+                    </a>
+                    <div class="hide-btn">
+                      <button>Select option</button>
+                    </div>
+                  </div>
+                  <div class="product-con">
+                    <p style="margin: 0;">Type 2</p>
+                    <a href="#">Demo product title</a>
+                    <div class="price-box">
+                      <p><span><del class="old-price">&euro;133.30</del></span> <span class="new-price ms-1">
+                          &euro;133.30</span></p>
+                    </div>
+                    <div class="color-select">
+                      <ul>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: red;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: green;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: yellow;"></label>
+                        </li>
+                        <li>
+                          <label data-toggle="tooltip" data-placement="top" title="Red"
+                            style=" background-color: transparent;">+1</label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======================= -->
+            <!-- ======= -->
+            <div class="col-md-4 col-lg-4 ">
+              <div class="main-product-box mt-3">
+                <div class="product-box">
+                  <div class="img-sec">
+                    <a href="#">
+                      <img class="img-1" src="./images/product/gold2-1.webp" alt="img">
+                      <img class="img-2" src="./images/product/gold1-2.webp" alt="img">
+                    </a>
+                    <div class="hide-btn">
+                      <button>Select option</button>
+                    </div>
+                  </div>
+                  <div class="product-con">
+                    <p style="margin: 0;">Type 2</p>
+                    <a href="#">Demo product title</a>
+                    <div class="price-box">
+                      <p><span><del class="old-price">&euro;133.30</del></span> <span class="new-price ms-1">
+                          &euro;133.30</span></p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="container ">
+          <div class="pagination_produt">
+
+            <ul>
+              <li><a href="#"><i class="fa-solid fa-chevron-left"></i></a></li>
+              <li><a href="#" class="open">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#"><i class="fa-solid fa-chevron-right"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ========footer================ -->
+  <footer class="mt-5">
+    <div class="container footer-top">
+      <div class="row">
+        <div class="col-lg-2 col-md-6">
+          <div class="sec-1">
+            <a href="#"><img src="./images/logo_corano_125x.png" alt=""></a>
+            <div class="footer-content">
+              <p>We are a team of designers and developers that create high quality wordpress, shopify, Opencart</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="sec-2">
+            <h6>Contact Us</h6>
+            <div class="mt-3">
+              <ul>
+                <li><i class="fa-solid fa-house"></i> <span> 4710-4890 Breckinridge USA</span></li>
+                <li><i class="fa-solid fa-envelope"></i> <a href="#">demo@yourdomain.com </a></li>
+                <li><i class="fa-solid fa-phone"></i> <a href="#">(012) 800 456 789-987</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="sec-3">
+            <h6>Information</h6>
+            <div class="mt-3">
+              <ul>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Faqs</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Size Chart</a></li>
+                <li><a href="#">Refund Policy</a></li>
+                <li><a href="#">Shipping Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="sec-4">
+            <h5>Follow Us</h5>
+            <div class="mt-3">
+              <div class="icons">
+                <a href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-vimeo-v"></i>
+                </a>
+              </div>
+              <div class="app-img">
+                <a href="#"> <img src="./images/appstore.png" alt=""></a>
+                <a href="#"> <img src="./images/playstore.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="footer-input">
+            <h6>Signup for newsletter</h6>
+            <form action="#">
+              <div class="input-div">
+                <button disabled type="submit" id="footer_btn">Subscribe</button>
+                <input id="footer_input" type="email" placeholder="email@example.com">
+                <div class="check-box">
+                  <input type="checkbox" id="email"> <label for="email">I agree to the <a href="#">Term of
+                      Service</a></label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="fo-payment-img">
+            <img src="./images/payment_large.png" alt="payment">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright &copy; 2021 <a href="#"> HasThemes</a> HasThemes <strong>Corano</strong> by <a
+          href="#">HasThemes.</a></p>
+    </div>
+  </footer>
+
+  <!-- ==============scroll top ================= -->
+  <div class="scrolltop" id="scroll_top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./javascript/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
